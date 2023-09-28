@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".//style/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+ 
+    <div class="contenedornNav">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <img src="../src/img/logo.jpg" alt="" style="height: 4rem;">
+              <div class="collapse navbar-collapse " style="margin-left: 5rem;" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="font-size: 1.3rem; margin-right: 1rem;">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 1.3rem; margin-right: 1rem;">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 1.3rem;">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button> -->
+                  <a href="./login.php">
+          
+                    <img src="../src/usuario.png" alt="" style="height: 1.5rem; margin-right: 2rem;">
+                  </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+</div>
+</header>
+<main>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/arepacarne.JPG" class="d-block " width="1400px" height="500px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/arepahuevo.JPG" class="d-block " width="1400px" height="500px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/arepacarne.JPG" class="d-block " width="1400px" height="500px" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br>
+      <div class="card-group">
+        <div class="card">
+          <img src="./imagenes/jpg (20).JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">¿ANTOJADO?</h5>
+            <p class="card-text">¡Hoy te invitamos a comer unas de nuestras mejores empanadas no te lo pierdas!</p>
+            <button type="button" class="btn btn-warning">Click ¡AQUI!</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./imagenes/jpg (20).JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">¿DE ALGO RICO?</h5>
+            <p class="card-text">¡Hoy tenemos descuentos estupendos no te los pierdas, te esperamos!</p>
+            <button type="button" class="btn btn-warning">Click ¡AQUI!</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./imagenes/jpg (20).JPG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">¿SABROSO Y CROCANTE?</h5>
+            <p class="card-text">¡En empanadas el paisa, las empanadas mas cocrantes!</p>
+            <button type="button" class="btn btn-warning">Click ¡AQUI!</button>
+          </div><br><br>
+        </div><br><br>
+        <div class="card-group">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 41rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡COMBO!</h5>
+            <img src="./img/arepacarne.JPG" height="200px" width="400px" class="rounded" alt=",,">
+            <p class="card-text">Increible combo ¡Compralo ya!</p>
+            <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+            <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+    
+          </div>
+        </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡SUPER COMBO!</h5>
+            <img src="./img/arepacarne.JPG" height="300px" width="300px" class="rounded" alt="..">
+            <p class="card-text">Increible supero combo ¡Compralo ya!</p>
+            <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+            <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡BEBIDAS!</h5>
+            <img src="./img/arepacarne.JPG" height="300px" width="300px" class="rounded" alt="..">
+            <p class="card-text">Escoge entre todas tu favoritas.</p>
+            <label for="bebidas">Bebidas</label><br>
+            <select id="bebidas">
+              <option value="Coca Cola">Coca Cola</option>
+              <option value="Pepsi">Pepsi</option>
+              <option value="Cuatro">Cuatro</option>
+              <option value="Postobon">Postobon</option>
+              <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+              <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡EMPANAS DE POLLO!</h5>
+            <img src="./img/s.jpg" class="rounded" alt="..">
+            <p class="card-text">Una mezcla de calidad con sabor</p>
+            <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+            <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡EMPANAS DE CARNE!</h5>
+            <img src="./img/supercombos.jpg" class="rounded" alt="..">
+            <p class="card-text">Estas no te las debes perder</p>
+            <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+            <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡EMPANADAS SOLO QUESO!</h5>
+            <img src="./img/supercombos.jpg" class="rounded" alt="..">
+            <p class="card-text">¿Amante del queso? Estas son las tuyas</p>
+            <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+            <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡EMPANADAS RANCHERAS!</h5>
+            <img src="./img/supercombos.jpg" class="rounded" alt="..">
+            <p class="card-text">Las mejores siempres las encontraras con nosotros</p>
+            <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+            <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class=" card-body">
+            <h5 class="card-title">¡AREPAS DE HUEVO CON CARNE!</h5>
+            <img src="./img/supercombos.jpg" class="rounded" alt="..">
+            <p class="card-text">Lo mejor de lo mejor</p>
+            <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+            <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+      </div><br><br>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡OTROS!</h5>
+            <img src="./img/supercombos.jpg" class="rounded" alt="..">
+            <p class="card-text">¡Puedes encontrar mas aquí!</p>
+            <input type="number" id="Cantidad" name="Cantidad" required placeholder="Cantidad">
+            <button id="agregarCarrito" class="btn btn-warning">Añadir al Carrito</button>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card" style="width: 43rem;">
+          <div class="card-body">
+            <h5 class="card-title">¡APPS!</h5>
+          </div>
+        </div>
+      </div>
+      </div>
+      <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+              <ion-icon name="google-plus-g"></ion-icon>
+            </a></li>
+        </ul>
+        <div class="row">
+          <ul>
+            <li><a href="#">CONTACTANOS</a></li>
+            <li><a href="#">EMPLEO</a></li>
+            <li><a href="#">EMPLEO</a></li>
+            <li><a>@Kevin Diaz | Diego infante</a></li>
+            <li><a href="https://www.flaticon.es/iconos-gratis/llamada" title="llamada iconos">Llamada iconos creados por
+                Gregor Cresnar - Flaticon</a></li>
+    
+          </ul>
+        </div>
+    
+    
+    
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</main>
+<!-- <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="google-plus-g"></ion-icon>
+        </a></li>
+    </ul>
+    <div class="row">
+    <ul>
+    <li><a href="#">CONTACTANOS</a></li>
+    <li><a href="#">EMPLEO</a></li>
+    <li><a href="#">EMPLEO</a></li>
+    <li><a>@Kevin Diaz | Diego infante</a></li>
+    <li><a href="https://www.flaticon.es/iconos-gratis/llamada" title="llamada iconos">Llamada iconos creados por Gregor Cresnar - Flaticon</a></li>
+
+    </ul>
+    </div>
+    
+
+    
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+
+
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

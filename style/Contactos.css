@@ -1,0 +1,109 @@
+.arousel-slide {
+    padding: 3rem;
+}
+
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #000000;
+    transform: translateY(-10px);
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+.footer {
+
+    width: 100%;
+    background: #fff94d;
+    min-height: 100px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+
+}
+
+.social-icon,
+.menu {
+    position: relative;
+    display: flex;
+
+
+}
+
+.social-icon__item,
+.menu__item {
+    list-style: none;
+}
+
+.social-icon__link {
+    font-size: 2rem;
+    color: #000000;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icon__link:hover {
+    transform: translateY(-10px);
+}
+
+.carousel-slide {
+    padding: 1rem;
+}
+
+.body {
+    background-image: url(./imagenes/img.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+
+}
+
+.card-body {
+    position: relative;
+    padding: auto;
+
+}
+
+.card-group1 {
+    display: flex;
+    background-attachment: fixed;
+    padding-right: 10rem;
+    padding-left: 30rem;
+    position: relative;
+}
