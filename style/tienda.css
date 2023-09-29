@@ -1,8 +1,3 @@
-.arousel-slide {
-    padding: 3rem;
-}
-
-
 .footer .row {
     width: 100%;
     margin: 1% 0%;
@@ -79,31 +74,21 @@
     padding: 1rem;
 }
 
-.body {
-    background-image: url(./imagenes/img.JPG);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.container {
+    display: flex;
+    text-align: center;
 }
 
-.card {
-    padding: 10px;
-    text-align: center;
-    display: flex;
-
+.item {
+    flex-grow: 1;
 }
 
 .card-body {
-    position: relative;
-    padding: auto;
-
+    background-color: #fff94d;
 }
 
-.card-group1 {
-    display: flex;
-    background-attachment: fixed;
-    padding-right: 10rem;
-    padding-left: 30rem;
-    position: relative;
+.carousel-inner {
+    border-radius: 20px;
+    border-color: #fff94d;
+
 }

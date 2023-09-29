@@ -107,3 +107,38 @@
     padding-left: 30rem;
     position: relative;
 }
+.cajatel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+    color: #36db6d;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: #fff94d; */
+    margin-bottom: 2rem;
+}
+
+.log1{
+    display:flex ;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+.mensaje{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.fot1{
+    margin-right: 5rem;
+}
+.men1{
+    height: 3rem;
+    width: 25rem;
+
+}

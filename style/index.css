@@ -107,3 +107,9 @@
     padding-left: 30rem;
     position: relative;
 }
+.logo1{
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
